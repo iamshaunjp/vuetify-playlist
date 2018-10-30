@@ -3,7 +3,7 @@
 
     <v-toolbar flat app>
       <v-toolbar-side-icon @click="drawer = !drawer" class="grey--text"></v-toolbar-side-icon>
-      <v-toolbar-title class="text-uppercase">
+      <v-toolbar-title class="text-uppercase grey--text">
         <span class="font-weight-light">Todo</span>
         <span>Ninja</span>
       </v-toolbar-title>
