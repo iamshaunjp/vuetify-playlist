@@ -7,9 +7,9 @@
       <v-layout row wrap>
         <v-flex xs12 sm6 md4 lg3 v-for="person in team" :key="person.name">
           <v-card flat class="text-xs-center ma-3">
-            <v-card-media class="pt-4">
+            <v-responsive class="pt-4">
               image here
-            </v-card-media>
+            </v-responsive>
             <v-card-text>
               <div class="subheading">{{ person.name }}</div>
               <div class="grey--text">{{ person.role }}</div>
@@ -38,7 +38,6 @@ export default {
         { name: 'Ryu', role: 'Graphic designer' },
         { name: 'Chun Li', role: 'Web developer' },
         { name: 'Gouken', role: 'Social media maverick' },
-        { name: 'Bill Gates', role: 'Director' },
         { name: 'Yoshi', role: 'Sales guru'}
 
       ]
