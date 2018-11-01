@@ -32,7 +32,7 @@
       <v-layout column align-center>
         <v-flex class="mt-5">
           <v-avatar size="100">
-            <img class="text-lg-center" src="https://randomuser.me/api/portraits/men/85.jpg">
+            <img class="text-lg-center" src="/avatar-1.png">
           </v-avatar>
           <p class="white--text subheading mt-1">The Net Ninja</p>
         </v-flex>
