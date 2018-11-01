@@ -5,6 +5,14 @@
       <v-card-title>
         <h2>Add a New Project</h2>
       </v-card-title>
+      <v-card-text>
+        <v-form class="px-3">
+          <v-text-field v-model="title" label="Title"></v-text-field>
+          <v-textarea v-model="content" label="Information"></v-textarea>
+          <v-spacer></v-spacer>
+          <v-btn flat @click="submit" class="success mx-0 mt-3">Add Project</v-btn>
+        </v-form>
+      </v-card-text>
     </v-card>
   </v-dialog>
 </template>
@@ -13,7 +21,13 @@
 export default {
   data() {
     return {
-
+      title: '',
+      content: ''
+    }
+  },
+  methods: {
+    submit() {
+      console.log(this.title, this.content)
     }
   }
 }
