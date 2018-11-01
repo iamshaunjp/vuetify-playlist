@@ -7,8 +7,8 @@
       </v-card-title>
       <v-card-text>
         <v-form class="px-3">
-          <v-text-field v-model="title" label="Title"></v-text-field>
-          <v-textarea v-model="content" label="Information"></v-textarea>
+          <v-text-field v-model="title" label="Title" prepend-icon="folder"></v-text-field>
+          <v-textarea v-model="content" label="Information" prepend-icon="edit"></v-textarea>
           <v-spacer></v-spacer>
           <v-btn flat @click="submit" class="success mx-0 mt-3">Add Project</v-btn>
         </v-form>
