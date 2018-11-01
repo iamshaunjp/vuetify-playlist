@@ -9,7 +9,7 @@
       </v-toolbar-title>
       <v-spacer></v-spacer>
 
-      <!-- menu -->
+      <!-- dropdown menu -->
       <v-menu offset-y>
         <v-btn flat slot="activator" color="grey">
           <v-icon left>expand_more</v-icon>
